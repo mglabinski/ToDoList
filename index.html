@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ToDoList</title>
+</head>
+<body>
+<header id="main-header" class="bg-info text-white p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+            <h1 id="header-title">Lista do zrobienia:</h1>
+        </div>
+        <div class="col-md-3 align-self-center">
+            <input type="text" class="form-control" id="filter" placeholder="Wyszukaj w liście">
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+   <div id="main" class="card card-body">
+    <h2 class="title">Dodaj zadania:</h2>
+    <form id="addForm" class="form-inline">
+      <input type="text" class="form-control" id="Mission">
+      <input type="submit" class="btn btn-dark" value="Dodaj">
+    </form>
+    <h2 class="title">Zadania</h2>
+    <ul id="Missions" class="list-group">
+      <li class="list-group-item">Przykadowe zadanie nr 1 <button class="btn btn-danger btn-sm float-right delete">X</button></li>
+      <li class="list-group-item">Przykadowe zadanie nr 2 <button class="btn btn-danger btn-sm float-right delete">X</button></li>
+    </ul>
+   </div>
+  </div>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>"
+</body>
+</html>
